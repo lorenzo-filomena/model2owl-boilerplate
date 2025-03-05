@@ -68,7 +68,7 @@ jobs:
           done
           ls merge-xmis
 
-          make merge-xmi FIRST_XMI_TO_BE_MERGED_FILE_PATH=merge-xmis/"${AVAILABLE_IMPLEMENTATIONS[0]}"
+          make merge-xmi FIRST_XMI_TO_BE_MERGED_FILE_PATH=merge-xmis/"${AVAILABLE_IMPLEMENTATIONS[0]}"_CM.xml
 
           echo "merged XMI file"
           ls output/combined-xmi
